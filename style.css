@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    font-family:'inter';
+    background-size:cover ;
+    
+}
+
+
+#logo{
+    margin-top: 52px;
+    margin-left: 56px;
+}
+
+#titolo-menuSuperior{
+    margin-top:48px ;
+    margin-left:125px;
+}
+
+#texto-menuSuperior{
+    padding-bottom: 60px;
+    margin-top:20px ;
+    margin-left:125px;
+}
+
+#menuSuperior{
+    background-image: url(Imagens/fundo-menusuperior.svg);
+    color: aliceblue;
+}
+
+#menuInformacional{
+    background-color: #eaecf5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 10px;
+}
+
+#secaoVideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoInformativo{
+   display: flex;
+   align-items: center;
+}
+
+#video{
+   margin: 50px 25px 50px 100px;
+}
+
+#tituloVideo{
+    color: #247ba0;
+    margin-top: 50px;
+}
+
+#textoVideo{
+    color: #383838;
+}
+
+#carrossel{
+    padding: 20px;
+    padding-left: 250px;
+    padding-right: 250px ;
+    background-color: #247ba0;
+    
+    
+}
+
+#tituloCarrossel{
+    padding-top:20px;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+#divCards{
+    margin: 30px;
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+.card{
+    margin: 3%;
+
+}
+
+#setaEsquerda{
+    margin-top: 35px;
+    display: none;
+}
+
+#setaDireita{
+    margin-top: 35px;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+    margin-right: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform:translateY(-7px);
+    transition-duration: 0.5s ;
+}
+
+#formulari{
+    text-align: center;
+}
+
+#tituloFormulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+    font-weight: bolder;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color:#eaece5;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    color: #eaece5;
+    border: 0px;
+    background-color: #247ba0;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3ca7d4;
+    color: #fff;
+    transform: translatey(-8px);
+    transition-duration: 0.8s; 
+    box-shadow: 0px 15px 20px #1b4557de; 
+}
+
