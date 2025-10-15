@@ -1,25 +1,25 @@
 *{
     margin: 0;
-    font-family:'inter';
+    font-family: 'inter';
     background-size:cover ;
     
 }
 
 
 #logo{
-    margin-top: 52px;
-    margin-left: 56px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 #titolo-menuSuperior{
-    margin-top:48px ;
-    margin-left:125px;
+    margin-top:50px ;
+    margin-left:150px;
 }
 
 #texto-menuSuperior{
-    padding-bottom: 60px;
-    margin-top:20px ;
-    margin-left:125px;
+    margin-top:35px ;
+    margin-left:150px;
+    padding-bottom: 100px;
 }
 
 #menuSuperior{
@@ -28,7 +28,7 @@
 }
 
 #menuInformacional{
-    background-color: #eaecf5;
+    background-color: #eaece5;
     display: grid;
     grid-auto-flow: column;
     columns: auto;
@@ -65,10 +65,8 @@
 }
 
 #carrossel{
-    padding: 20px;
-    padding-left: 250px;
-    padding-right: 250px ;
-    background-color: #247ba0;
+    padding: 50px;
+    background-color: #247BA0;
     
     
 }
@@ -81,15 +79,14 @@
 }
 
 #divCards{
-    margin: 30px;
+    margin: 25px;
     display: grid;
     grid-auto-flow: column;
     
 }
 
 .card{
-    margin: 3%;
-
+    margin-left: 50px;
 }
 
 #setaEsquerda{
@@ -106,8 +103,7 @@
 }
 
 .seta{
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-top: 55%;
     cursor: pointer;
 }
 
